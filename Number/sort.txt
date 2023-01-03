@@ -1,0 +1,152 @@
+
+ The code begins by creating an instance of the Scanner class.
+
+ The Scanner object is used to read in a sequence of numbers from the user.
+
+ Next, an int array is created and initialized with the values 1 through 9.
+
+ This array will be used to store the data that will be sorted.
+
+ The code then checks to see if any of the numbers in the arr array are greater than or equal to any other number in the arr array.
+ If so, then ans is set to 1 and break is executed, exiting out of this loop.
+ Otherwise, ans remains at 0 and the loop continues.
+ In each iteration of this loop, if ans equals -1 (which means no number in arr is greater than or equal to any other number), then it means all of the numbers have been sorted and exit is executed without doing anything else.
+ Otherwise, one more comparison is made between each number in arr and its predecessor using < operator.
+ If this comparison results in an affirmative result (that is, one of these numbers is greater than or equal to its predecessor), then ans becomes 1 and break exits out of this loop; otherwise ans remains at 0 .
+ Next, a for statement iterates through all nine values in
+ The code first declares a variable called input which will hold a reference to the Scanner object.
+ Next, it creates an array of integers and assigns it the value of arr.
+ Finally, it sets the value of temp to 0 and enters into a for loop that will iterate through the array, comparing each element with the one before it.
+ If the element being compared is greater than the previous one, then ans will be set to 1; if not, ans will be set to -1.
+ When the for loop has finished executing, it checks to see if ans equals -1 (indicating that all elements have been compared and no changes need to be made).
+ If this is not the case, then it exits from the program and prints out the
+ The code begins by declaring two variables, arr and ans.
+ The arr variable stores a list of strings, while the ans variable stores a boolean value that indicates whether the list is in ascending or descending order.
+ The code then begins to loop through the list of strings.
+ If the string stored in arr[i-1] is less than the string stored in arr[i], then ans = 1 and the loop terminates.
+ Otherwise, if ans = -2, then this means that the list is already sorted in ascending order and no further sorting is necessary.
+ In this case, nothing else needs to be done so execution simply returns to the top of the loop.
+ If choice == 2, then this indicates that you want to enter a new value for sorting (in descending order).
+ The code sets input equal to nextInt() which will return an integer value between 1 and 3 (inclusive).
+ Then it loops through all of the values until it finds one that matches choice; i.e., input equals 2.
+ When it does, execution jumps back into the while statement inside of which choice was declared and continues executing from there until input equals 0 again (which will cause execution to exit from both statements within while).
+ The code will print the following: Data is already sorted in ascending order For sorting in descending order enter: 2
+ The code starts by displaying a message to the user.
+ The message says that they need to enter an integer value in order to sort the data.
+ The code then checks to see if the user has entered a valid number.
+ If the user has not entered a valid number, the program displays a message telling them that data is already sorted in descending order.
+ If the user has entered a valid number, the code checks to see if that number is greater than 2.
+ If it is not, then the code sets choice equal to input.nextInt() and loops through all of the other possible values for choice until either choice equals 1 or 2.
+ In this case, when choice equals 1, because input was less than 2, the program prints out "You have enter the wrong Input."
+ and continues looping through all of its other possibilities for choice .
+ When choice equals 2, because input was greater than 2, then control jumps back over to where it was before—checking for another valid integer value for sorting purposes.
+ The code will print the following: You have enter the worng Input For sorting in descending order enter: 2 For sorting in ascending order enter: 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ The code starts by creating a Scanner object and then initializing it with the input from System.in.
+
+
+ Next, an array of integers is created that will hold the numbers 1 through 9.
+
+ The variable temp is initialized to 0 and used to swap the data in the array so that it starts at index 0 instead of index 1.
+
+ Next, a for loop iterates over each element in arr (the array) and checks if its value is greater than or equal to arr[i-1].
+
+ If this condition evaluates true, ans = 1; otherwise ans = -1; This means that when i equals 2, 3, 4, 5 or 6 (or any other number), ans will be set to either -1 or 1 depending on whether arr[i-1]>arr[i].
+
+ When i reaches 7 or 8 (or any other number), ans will be set back to 0 because these conditions evaluate false.
+
+ If there are no elements left in arr after all iterations have been completed (ans == -1), then we check if there was an error during iteration by checking if !
+
+ (ans == -1).
+
+ If this condition evaluates true then we know that something went wrong during iteration and we need to analyze what happened before
+
+ The code is a simple program that checks the data to see if it is sorted in ascending order.
+
+ If not, then the code will continue on until it finds an ascending order.
+
+ The main function of this program has three parameters: input, arr and temp.
+
+ The input parameter is the Scanner object that reads from System.in and arr is an int array with 9 elements (arr[0] = 1, arr[1] = 2, etc.).
+
+ The temp variable stores the index of where we are currently sorting through the array and ans stores how many times we have gone through all of the elements in our array so far.
+
+ The for loop iterates over each element in our array with i being equal to 1 up until i
+
+ The code starts with a for loop that iterates through the array.
+
+ The code then checks to see if the current value of arr[i] is less than arr[i-1].
+
+ If it is, then ans = 1 and break exit_1; otherwise, ans = -2.
+
+ The next line in the switch statement compares this value to an integer variable choice which starts at 0 and increments by one each time it's called.
+
+ This means that when we enter 2 into input, the program will compare this number to -2 instead of choosing between them as you might expect.
+
+ The code is used to sort an array of integers in descending order.
+
+ The code will first check if the value entered by the user is less than the value of arr[i-1].
+
+ If so, then ans = 1 and break exit_1; else ans = -2.
+
+ The while loop will run until choice!=2, which means that it has reached its end and no more values need to be checked.
+
+ The code starts by declaring a variable called choice.
+
+ The code then has a switch statement that checks the input for an integer value.
+
+ If it is not an integer, the program will display "This is unsorted data" and ask the user to enter another number.
+
+ If it is an integer, the program will check if it's 1 or 2.
+
+ If it's 1, then the code will print out "For sorting in ascending order enter: 1".
+
+ If it's 2, then the code will print out "For sorting in descending order enter: 2".
+
+ Then after checking which option was chosen, there are two different cases depending on what was entered as well as break statements that end each case with a line of text saying what they do.
+
+ The code is a switch statement that has the following cases: case -2: System.out.println("Data is already sorted in Descending Order"); System.out.println(" "); case 1: System.out.println("For sorting in ascending order enter: 1"); break; case 2: System.out.println("For sorting in descending order enter: 2"); break; default: System.out.println("This is unsorted data"); break; }

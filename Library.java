@@ -8,51 +8,58 @@ public class Library {
 
         while (true) {
             displayMenu(); // Display the menu options
-            int choice = scanner.nextInt();
-            scanner.nextLine(); // Consume the newline character
 
-            // Validate the choice
-            while (choice < 0 || choice > 6) {
-                System.out.println("Invalid Choice");
-                System.out.print("Choice: ");
-                choice = scanner.nextInt();
+            try {
+                int choice = scanner.nextInt();
                 scanner.nextLine(); // Consume the newline character
-            }
 
-            if (choice == 0) {
-                return; // Exit the program
-            }
+                // Validate the choice
+                while (choice < 0 || choice > 6) {
+                    System.out.println("Invalid Choice");
+                    System.out.print("Choice: ");
+                    choice = scanner.nextInt();
+                    scanner.nextLine(); // Consume the newline character
+                }
 
-            switch (choice) {
-                case 1:
-                    System.out.print("Enter Book Name: ");
-                    String book1 = scanner.nextLine();
-                    libraryManager.addBook(book1); // Add a book to the library
-                    break;
+                if (choice == 0) {
+                    return; // Exit the program
+                }
 
-                case 2:
-                    System.out.print("Enter Book Name: ");
-                    String book2 = scanner.nextLine();
-                    libraryManager.issueBook(book2); // Issue a book from the library
-                    break;
+                switch (choice) {
+                    case 1:
+                        System.out.print("Enter Book Name: ");
+                        String book1 = scanner.nextLine();
+                        String booknaam = book1.trim();
+                        libraryManager.addBook(booknaam); // Add a book to the library
+                        break;
 
-                case 3:
-                    System.out.print("Enter Book Name: ");
-                    String book3 = scanner.nextLine();
-                    libraryManager.returnBook(book3); // Return a book to the library
-                    break;
+                    case 2:
+                        System.out.print("Enter Book Name: ");
+                        String book2 = scanner.nextLine();
+                        libraryManager.issueBook(book2); // Issue a book from the library
+                        break;
 
-                case 4:
-                    libraryManager.showAvailableBooks(); // Display available books in the library
-                    break;
+                    case 3:
+                        System.out.print("Enter Book Name: ");
+                        String book3 = scanner.nextLine();
+                        libraryManager.returnBook(book3); // Return a book to the library
+                        break;
 
-                case 5:
-                    libraryManager.showIssuedBooks(); // Display issued books from the library
-                    break;
+                    case 4:
+                        libraryManager.showAvailableBooks(); // Display available books in the library
+                        break;
 
-                case 6:
-                    libraryManager.showTotalAddedBooks(); // Display the history of added books
-                    break;
+                    case 5:
+                        libraryManager.showIssuedBooks(); // Display issued books from the library
+                        break;
+
+                    case 6:
+                        libraryManager.showTotalAddedBooks(); // Display the history of added books
+                        break;
+                }
+            } catch (Exception e) {
+                System.out.println("Invalid input. Please enter a number.");
+                scanner.nextLine(); // Consume the invalid input
             }
         }
     }
@@ -69,6 +76,8 @@ public class Library {
     }
 }
 
+
+// class for Library Management
 class LibraryManager {
     ArrayList<String> availableBooks = new ArrayList<>(); // To store Available Books
     ArrayList<String> issuedBooks = new ArrayList<>(); // To store Issued Books
@@ -76,15 +85,31 @@ class LibraryManager {
 
     // Adding Book
     public void addBook(String bookName) {
-        availableBooks.add(bookName); // Add book to the available books list
-        bookHistory.add(bookName); // Add book to the history of added books
 
-        int index = availableBooks.indexOf(bookName);
+        String contentToMatch = bookName;
 
-        if (index != -1) {
-            System.out.println("\nSuccessfully Added Book");
+        boolean foundMatch = false;
+
+        for (String item : availableBooks) {
+            if (item.equals(contentToMatch)) {
+                foundMatch = true;
+                break;
+            }
+        }
+
+        if (foundMatch) {
+            System.out.println("The book you want to add is already present in Library");
         } else {
-            System.out.println("!! ERROR !!");
+            availableBooks.add(bookName); // Add book to the available books list
+            bookHistory.add(bookName); // Add book to the history of added books
+
+            int index = availableBooks.indexOf(bookName);
+
+            if (index != -1) {
+                System.out.println("\nSuccessfully Added Book");
+            } else {
+                System.out.println("!! ERROR !!");
+            }
         }
     }
 

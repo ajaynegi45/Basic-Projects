@@ -62,7 +62,12 @@ public class TwoDArray {
             System.out.println(Arrays.toString(a));
         }
 
-      
 
+
+        // deepToString(array) - converts a multidimensional array to a string representation
+        String multiArrayString = Arrays.deepToString(arr);
+        System.out.println("Multidimensional array as string: " + multiArrayString);
+
+    
     }
 }

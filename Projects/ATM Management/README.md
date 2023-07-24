@@ -42,9 +42,9 @@ To run the ATM Management project, follow these steps:
 
 Contributions are always welcome! ✨
 
-See [`contributing.md`](https://github.com/ajaynegi45/Learn-Java/blob/main/ATMManagement/contributing.md) for ways to get started.
+See [`contributing.md`](https://github.com/ajaynegi45/Learn-Java/blob/main/Projects/ATM%20Management/contributing.md) for ways to get started.
 
-Please adhere to this project's [`code_of_conduct.md`](https://github.com/ajaynegi45/Learn-Java/blob/main/ATMManagement/code_of_conduct.md).
+Please adhere to this project's [`code_of_conduct.md`](https://github.com/ajaynegi45/Learn-Java/blob/main/Projects/ATM%20Management/code_of_conduct.md).
 
 
 

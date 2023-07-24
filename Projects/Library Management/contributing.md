@@ -38,7 +38,7 @@ If you're new to open source and don't know where to start, don't worry! We've t
 
 We want everyone who contributes to the project to feel welcome and respected. 
 
-Therefore, please read our code of conduct in the file [`code_of_conduct.md`](https://github.com/ajaynegi45/Learn-Java/blob/main/LibraryManagement/code_of_conduct.md) to understand the standards of behavior we expect from everyone involved in the project.
+Therefore, please read our code of conduct in the file [`code_of_conduct.md`](https://github.com/ajaynegi45/Learn-Java/blob/main/Projects/Library%20Management/code_of_conduct.md) to understand the standards of behavior we expect from everyone involved in the project.
 ## Feedback and Support 🎗️
 
 We're always happy to hear from our contributors and users. 

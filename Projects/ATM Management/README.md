@@ -34,6 +34,9 @@ To run the ATM Management project, follow these steps:
    java ATM
    ```
 
+‼️ **Note**: Both projects are written in Java and can be executed in any Java-supported environment. Make sure to have the latest version of Java installed on your system to run the programs successfully.
+<br><br>
+
 
 ## Contributing 🤗
 

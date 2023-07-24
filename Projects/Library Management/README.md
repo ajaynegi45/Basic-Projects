@@ -45,9 +45,9 @@ To run the Library Management project, follow these steps:
 
 Contributions are always welcome! ✨
 
-See [`contributing.md`](https://github.com/ajaynegi45/Learn-Java/blob/main/LibraryManagement/contributing.md) for ways to get started.
+See [`contributing.md`](https://github.com/ajaynegi45/Learn-Java/blob/main/Projects/Library%20Management/contributing.md) for ways to get started.
 
-Please adhere to this project's [`code_of_conduct.md`](https://github.com/ajaynegi45/Learn-Java/blob/main/LibraryManagement/code_of_conduct.md).
+Please adhere to this project's [`code_of_conduct.md`](https://github.com/ajaynegi45/Learn-Java/blob/main/Projects/Library%20Management/code_of_conduct.md).
 
 
 

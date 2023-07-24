@@ -1,19 +1,38 @@
-# ATM Management ✨
+# ATM Management System ✨
 Hello there 👋🏻, and welcome to my ATM Management! 
 
 My name is Ajay Negi, and I'm thrilled to share my creative work and professional experiences with you.
+<br><br>
+
+### Overview  👀
+
+The ATM project is a simple Java application that simulates an Automated Teller Machine (ATM). It provides a **command-line interface** to perform basic banking operations, such as checking account balance, depositing funds, withdrawing money, and viewing Account Details.
+<br>
+
+### Features 
+- The program prompts the user to enter a customer ID and PIN for authentication.
+- Default customer **ID** 9958 and customer **PIN** 3345
+- It validates the customer ID and PIN and allows the user to access the account if the credentials are correct.
+- Users can select the account type (Savings or Current).
+- After selecting the account type, users can perform various operations such as checking account details, viewing balance, withdrawing funds, depositing funds, and exiting the ATM.
 
 
-## Simple ATM Machine Program
-In Java, we can create an ATM program for representing ATM transaction. In the ATM program, the user has to select an option from the options displayed on the screen. The options are related to simple login in account, withdraw the money, deposit the money, check the balance, and exit.
-
-To withdraw the money, we simply get the withdrawal amount from the user and remove that amount from the total balance and print the successful message.
-
-To deposit the money, we simply get the deposit amount from the user, add it to the total balance and print the successful message.
-
-To check balance, we simply print the total balance of the user.
-
-We use the exit(0) method to exit from the current Transaction mode and return the user to the home page or initial screen.
+### How to Run 🏃🏻‍♂️
+To run the ATM Management project, follow these steps:
+1. Make sure you have Java installed on your system.
+2. Navigate to the  `Learn java/Projects/ATM Management`  folder.
+3. Compile the  `ATM.java`  file using the following command:
+   <br>
+   <br>
+   ```
+   javac ATM.java
+   ```
+5. Run the compiled program with:
+   <br>
+   <br>
+   ```
+   java ATM
+   ```
 
 
 ## Contributing 🤗

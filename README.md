@@ -1,6 +1,8 @@
 # Project Descriptions 📂
-This repository contains two projects: ATM and Library Management.
+This repository contains projects.
 <br><br>
+
+# Java Projects
 
 ## ATM Management Project 💸
 ### Overview
@@ -42,10 +44,21 @@ Click 👉🏻 [`Library Management Project`](https://github.com/ajaynegi45/Lear
 ‼️ **Note**: Both projects are written in Java and can be executed in any Java-supported environment. Make sure to have the latest version of Java installed on your system to run the programs successfully.
 
 <br>
+<br>
+
+# Python Projects
+
+
+## Service Provider Searcher Project
+Click 👉🏻 [`Service Provider Searcher Project`](https://github.com/ajaynegi45/Learn-Java/tree/main/Projects/Library%20Management)
+
+## Stone Paper Scissor Game Project
+Click 👉🏻 [`Stone Paper Scissor Game Project`](https://github.com/ajaynegi45/Learn-Java/tree/main/Projects/Library%20Management)
+
 
 ## Contributing 🤗
 
-Feel free to explore and use these projects to learn Java and enhance your programming skills. If you encounter any issues or have suggestions for improvements, please feel free to contribute or reach out for assistance.
+Feel free to explore and use these projects and enhance your programming skills. If you encounter any issues or have suggestions for improvements, please feel free to contribute or reach out for assistance.
 
 Contributions are always welcome! ✨
 
@@ -63,7 +76,7 @@ If you have any questions or would like to connect, please don't hesitate to rea
 <br>
 
 ## Thankyou ❤️
-Thank you for taking the time to explore my ATM and Library Management projects. I hope you find them informative and useful in your journey to learn Java and enhance your programming skills. Your support and contributions are highly appreciated. 
+Thank you for taking the time to explore my projects. I hope you find them informative and useful in your journey to learn and enhance your programming skills. Your support and contributions are highly appreciated. 
 Happy coding! ✨
 <br>
 
